@@ -15,7 +15,7 @@ Deck::Deck() {
   this->cards_index = 51;
 }
 
-void Deck::Shuffle() 
+void Deck::Shuffle() {
   std::mt19937 mt;
   std::random_device rnd;
   std::uniform_int_distribution<> rand(0, this->cards_index);
