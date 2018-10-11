@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+#include "player.hpp"
+
 /*
 カード
 ゲームマネジメント
