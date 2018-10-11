@@ -1,5 +1,5 @@
 #include "dealer.hpp"
 
 Dealer::Dealer() {
-  cards.reserve(10);
+  this->cards.reserve(10);
 }
