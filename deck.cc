@@ -33,5 +33,5 @@ void Deck::Shuffle() {
 }
 
 unsigned short int Deck::Draw() {
-  return this->cards[this->cards_index--] if this->cards_index > 0 else 0;
+  return  this->cards_index > 0 ? this->cards[this->cards_index--] : 0;
 }
